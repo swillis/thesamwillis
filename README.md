@@ -12,6 +12,6 @@ I have built this site thinking about mobile first and web second. The aim is to
 - Clone the repo from Github
 - Download and install the Hammer app
 - Download and install Takana
-- Add the project to Hammer app and run it in your browser!
+- Add the project to Hammer app and run it in your browser*!
 
 *Images coming soon.

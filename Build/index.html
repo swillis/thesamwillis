@@ -1,5 +1,7 @@
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 	<title>Samuel J. Willis - Designer</title>
 
 	<!-- Typekit -->
@@ -17,11 +19,67 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				Sidebar
+			<div class="col-md-4 aside affix">
+				<div class="row">
+	<div class="col-md-12 profile">
+		<div class="portrait">
+			<img src="http://www.gravatar.com/avatar/e01235e76bce90f066b95bba8fa6a8d4?s=300" class="img-circle img-responsive" alt="Responsive image">
+		</div>
+		<div class="my-details">
+			<h1>Sam Willis</h1>
+			<h3>UX/UI/Product/Designer</h3>
+			<h3>London</h3>
+			<button type="button" class="btn btn-primary btn-lg">Follow me on Twitter</button>
+		</div>
+		<div class="action"></div>
+	</div>
+</div>
+				<div class="row">
+	<div class="col-md-12 menu">
+		<ul>
+			<li>Introduction</li>
+			<li>My Career</li>
+			<li>Gallery</li>
+			<li>Contact Details</li>
+			<li>Blog (Coming Soon)</li>
+		</ul>
+	</div>
+</div>
 			</div>
-			<div class="col-md-9">
-				Main
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-4 main">
+				<div class="row">
+	<div class="col-md-12">
+		<h1>Intro</h1>
+		<h2>A bit about me</h2>
+		<p>I am a UX/UI/Product/Front-End/Web Designer based in London, UK. I've been working in the industry for 2+ years, at a handful of exciting start-ups.</p>
+		<p>My approach to Design leans heavily on data and research to solve problems efficiently and create clean and delightful experiences for users.</p>
+	</div>
+</div>
+				<div class="row">
+	<div class="col-md-12">
+		<h1>My Career (so far)</h1>
+		<h2>Listora</h2>
+
+		<p>Listora blurb...</p>
+		<p>I worked with Alex and Henry for over 3 years, helping them launch a number of different products and services within the event industry, ultimately leading to the creation of Listora.com. During my time here I created UIs, blogs, landing pages, a variety of adverts, icons and even did the voice over for this ad.</p>
+
+		<h2>Cinema</h2>
+
+		<p>Incubator</p>
+		<p>I currently work at Cinema, and have done for the past 4 months*. I was brought in to work with the talented and charming Mr. Simon Rohrbach, to help them take their digital portfolio to the next level. In April 2014 we took a huge step and launched our family album app - 23snaps - in Brazil. Needless to say this was an exciting (and scary) time to join and be a part of the team.</p>
+
+		<p>The other pillar of Cinema's portfolio is Styloko - the social shopping site - which I have throughly enjoyed working on and helping the team to steadily grow the app and get some serious traction. Working on the Styloko app provides a brilliant contrast in both style and problems that need solving to 23snaps. I even get to do a bit of print every now and then :)</p>
+		<h2>Design+Banter</h2>
+
+		<p>C-founder / organiser</p>
+		<p>blurb</p>
+		<p>I co-organise the popular (in Old Street anyway...) event Design-Banter with my good friend Gearóid O'Rourke. Over the past 12 months* we have taken the event from humble beginnings - 50 of our mates in a small room in the basement of a bowling alley - to a sell-out, 200 person event. It has been an amazing ride so far, and I am very excited to see where it goes next.</p>
+
+		<p>[*put in some JS that dynamically updates the date]</p>
+	</div>
+</div>
 			</div>
 		</div>
 	</div>
@@ -31,6 +89,22 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$('.btn').tooltip();
+
+		$(document).ready(function() {
+		    var $window = $(window);
+		    function checkWidth() {
+		        var windowsize = $window.width();
+		        if (windowsize > 992) {
+		        	$('.aside').addClass("affix");
+		        }
+		        else {
+		        	$('.aside').removeClass("affix");
+		        }
+		    }
+		    checkWidth();
+		    $(window).resize(checkWidth);
+		});
+
 	</script>
 </body>
 </html>

@@ -1,5 +1,7 @@
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 	<title>Samuel J. Willis - Designer</title>
 
 	<!-- Typekit -->
@@ -17,11 +19,15 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				Sidebar
+			<div class="col-md-4 aside affix">
+				<!-- @include aside.html -->
+				<!-- @include menu.html -->
 			</div>
-			<div class="col-md-9">
-				Main
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-4 main">
+				<!-- @include intro.html -->
+				<!-- @include experience.html -->
 			</div>
 		</div>
 	</div>
@@ -31,6 +37,21 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$('.btn').tooltip();
+
+		$(document).ready(function() {
+		    var $window = $(window);
+		    function checkWidth() {
+		        var windowsize = $window.width();
+		        if (windowsize > 992) {
+		        	$('.aside').addClass("affix");
+		        }
+		        else {
+		        	$('.aside').removeClass("affix");
+		        }
+		    }
+		    checkWidth();
+		    $(window).resize(checkWidth);
+		});
 	</script>
 </body>
 </html>

@@ -1,2 +1,23 @@
 body {
-  font-family: "freight-sans-pro"; }
+  -webkit-font-smoothing: antialiased;
+  font-family: "freight-sans-pro";
+  font-size: 18px;
+  line-height: 1.6em;
+  background: #f0f0f0; }
+
+.aside {
+  background: #e1e1e3; }
+  .aside.affix {
+    max-width: 390px; }
+  .aside .profile {
+    text-align: center;
+    padding: 50px 0; }
+    .aside .profile .portrait {
+      display: inline-block;
+      max-width: 150px;
+      max-height: 150px; }
+  .aside .menu {
+    padding: 50px 0; }
+
+.main {
+  background: #fff; }
