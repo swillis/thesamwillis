@@ -2,7 +2,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "freight-sans-pro";
   font-size: 18px;
-  line-height: 1.6em;
+  font-weight: 500;
+  line-height: 1.8em;
+  text-align: justify;
   background: #f0f0f0; }
 
 .aside {
