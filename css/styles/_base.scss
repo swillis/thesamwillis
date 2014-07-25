@@ -7,3 +7,24 @@ body {
 	text-align: justify;
 	background: #f0f0f0;
 }
+
+.container {
+	background: #fff;
+}
+
+.section {
+	min-height: 100%;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.25em;
+	}
+}
+
+.center-content {
+	display: inline-block;
+	vertical-align: middle;
+}

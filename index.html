@@ -17,17 +17,17 @@
 
 </head>
 <body>
+
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 aside">
-				<!-- @include aside.html -->
-				<!-- @include menu.html -->
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-4 main">
-				<!-- @include intro.html -->
-				<!-- @include experience.html -->
+			<div class="col-md-10 col-md-offset-1">
+	<!-- @include section-top -->
+
+	<!-- @include section-portfolio -->
+
+	<!-- @include section-employment -->
+
+	<!-- @include section-freelance -->
 			</div>
 		</div>
 	</div>
@@ -35,23 +35,6 @@
 	<!-- JS -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-		$('.btn').tooltip();
 
-		$(document).ready(function() {
-		    var $window = $(window);
-		    function checkWidth() {
-		        var windowsize = $window.width();
-		        if (windowsize > 992) {
-		        	$('.aside').addClass("affix");
-		        }
-		        else {
-		        	$('.aside').removeClass("affix");
-		        }
-		    }
-		    checkWidth();
-		    $(window).resize(checkWidth);
-		});
-	</script>
 </body>
 </html>
