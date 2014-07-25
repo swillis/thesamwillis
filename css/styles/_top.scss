@@ -1,0 +1,43 @@
+.top {
+
+	&.section {
+		padding: 0;
+	}
+	// text-align: center;
+
+	.portrait {
+		img {
+			margin: 0 auto 30px;
+			max-width: 214px;
+		}
+
+		h2 {
+			font-size: 36px;
+			font-weight: 400;
+
+			span {
+				font-weight: 600;
+			}
+		}
+
+		button {
+			max-width: 200px;
+			margin: 0 auto 30px;
+		}
+	}
+
+	.funnel-top {
+		button {
+			text-align: left;
+			padding: 20px;
+			margin: 0 0 15px;
+			font-size: 24px;
+
+			.glyphicon {
+				float: right;
+				margin-top: 2px;
+				color: #f0f0f0;
+			}
+		}
+	}
+}
