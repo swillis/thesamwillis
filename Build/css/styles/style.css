@@ -5300,15 +5300,14 @@ body {
   line-height: 1.8em;
   background: #f0f0f0; }
 
-h1, h2, h3 {
-  padding: 0; }
-
 .center-content {
   display: inline-block;
   vertical-align: middle; }
 
 .header {
   background: #f9f9f9; }
+  .header .container {
+    background: none; }
   .header .col-md-10:before {
     content: '';
     display: inline-block;
@@ -5335,6 +5334,10 @@ h1, h2, h3 {
       border-top: 12px solid;
       border-right: 10px solid transparent;
       border-left: 10px solid transparent; }
+
+.bio .container {
+  background: #fff;
+  padding: 100px 15px; }
 
 .portfolio .box {
   width: 100%;

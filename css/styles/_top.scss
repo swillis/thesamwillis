@@ -1,6 +1,10 @@
 .header {
 	background: #f9f9f9;
 
+	.container {
+		background: none;
+	}
+
 	.col-md-10 {
 		&:before {
 			content: '';
