@@ -1,43 +1,47 @@
-.top {
+.header {
+	background: #f9f9f9;
 
-	&.section {
-		padding: 0;
-	}
-	// text-align: center;
-
-	.portrait {
-		img {
-			margin: 0 auto 30px;
-			max-width: 214px;
-		}
-
-		h2 {
-			font-size: 36px;
-			font-weight: 400;
-
-			span {
-				font-weight: 600;
-			}
-		}
-
-		button {
-			max-width: 200px;
-			margin: 0 auto 30px;
+	.col-md-10 {
+		&:before {
+			content: '';
+			display: inline-block;
+			min-height: 90vh;
+			vertical-align: middle;
+			margin-right: -0.25em;
 		}
 	}
 
-	.funnel-top {
-		button {
-			text-align: left;
-			padding: 20px;
-			margin: 0 0 15px;
-			font-size: 24px;
+	h2 {
+		font-size: 48px;
+		line-height: 1.5em;
+		font-weight: 600;
+	}
 
-			.glyphicon {
-				float: right;
-				margin-top: 2px;
-				color: #f0f0f0;
+	.panel {
+		background: none;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+
+		.panel-title {
+			a {
+				color: $brand-primary;
 			}
+		}
+
+		.panel-heading {
+			background: none;
+			padding: 0;
+		}
+
+		.panel-body {
+			border-top: none;
+		}
+
+		.caret {
+			border-top: 12px solid;
+			border-right: 10px solid transparent;
+			border-left: 10px solid transparent;
 		}
 	}
 }
