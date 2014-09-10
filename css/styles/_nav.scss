@@ -1,0 +1,29 @@
+.top-navigation {
+	display: block;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #e1e1e3;
+
+	ul.menu {
+		height: 80px;
+		text-align: right;
+		padding: 0 45px;
+		margin: 0;
+
+		li {
+			list-style: none;
+			display: inline-block;
+
+			a {
+				display: inline-block;
+				padding: 0 15px;
+				line-height: 77px;
+				border-bottom: 3px solid #fff;
+
+				&:hover {
+					border-color: #e1e1e3;
+				}
+			}
+		}
+	}
+}

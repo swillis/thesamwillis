@@ -1,17 +1,7 @@
 body {
-	-webkit-font-smoothing: antialiased;
-	font-family: "freight-sans-pro";
 	font-size: 18px;
-	font-weight: 500;
 	line-height: 1.8em;
-	background: #f0f0f0;
-}
-
-.container {
-	// background: #fff;
-}
-
-.center-content {
-	display: inline-block;
-	vertical-align: middle;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+	font-family: 'helvetica neue', helvetica, sans-serif;
 }
