@@ -1,20 +1,24 @@
 .header {
-	min-height: 80vh;
-	background-color: #f1f1f1;
-	text-align: center;
+	background-color: $grey-scale-1;
+	height: 80vh;
 
-	&:before {
-		// content: '';
-		// display: inline-block;
-		// height: 100%;
-		// vertical-align: middle;
-		// margin-right: -0.25em;
+	.header-inner {
+		text-align: center;
+		position: relative;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			margin-right: -0.25em;
+		}
+
+		.centered-content {
+			display: inline-block;
+			vertical-align: middle;
+		}
 	}
-
-	// &.container {
-	// 	display: inline-block;
-	// 	vertical-align: middle;	
-	// }
 
 	ul {
 		list-style: none;
