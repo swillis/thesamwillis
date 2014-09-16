@@ -1,0 +1,26 @@
+.header {
+	min-height: 80vh;
+	background-color: #f1f1f1;
+	text-align: center;
+
+	&:before {
+		// content: '';
+		// display: inline-block;
+		// height: 100%;
+		// vertical-align: middle;
+		// margin-right: -0.25em;
+	}
+
+	// &.container {
+	// 	display: inline-block;
+	// 	vertical-align: middle;	
+	// }
+
+	ul {
+		list-style: none;
+
+		li {
+			display: inline-block;
+		}
+	}
+}

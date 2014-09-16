@@ -1,14 +1,10 @@
 .top-navigation {
-	display: block;
-	position: relative;
-	width: 100%;
 	border-bottom: 1px solid #e1e1e3;
 
 	ul.menu {
-		height: 80px;
-		text-align: right;
-		padding: 0 45px;
+		text-align: center;
 		margin: 0;
+		padding: 0;
 
 		li {
 			list-style: none;
@@ -16,12 +12,17 @@
 
 			a {
 				display: inline-block;
-				padding: 0 15px;
-				line-height: 77px;
+				font-weight: 500;
+				padding: 0 25px;
+				line-height: 50px;
 				border-bottom: 3px solid #fff;
 
 				&:hover {
-					border-color: #e1e1e3;
+					border-color: red;
+				}
+
+				&.active {
+					border-color: red;
 				}
 			}
 		}

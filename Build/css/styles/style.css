@@ -5297,25 +5297,33 @@ body {
   line-height: 1.8em;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  font-family: 'helvetica neue', helvetica, sans-serif; }
+  font-family: 'freight-sans-pro', helvetica, sans-serif; }
 
 .top-navigation {
-  display: block;
-  position: relative;
-  width: 100%;
   border-bottom: 1px solid #e1e1e3; }
   .top-navigation ul.menu {
-    height: 80px;
-    text-align: right;
-    padding: 0 45px;
-    margin: 0; }
+    text-align: center;
+    margin: 0;
+    padding: 0; }
     .top-navigation ul.menu li {
       list-style: none;
       display: inline-block; }
       .top-navigation ul.menu li a {
         display: inline-block;
-        padding: 0 15px;
-        line-height: 77px;
+        font-weight: 500;
+        padding: 0 25px;
+        line-height: 50px;
         border-bottom: 3px solid #fff; }
         .top-navigation ul.menu li a:hover {
-          border-color: #e1e1e3; }
+          border-color: red; }
+        .top-navigation ul.menu li a.active {
+          border-color: red; }
+
+.header {
+  min-height: 80vh;
+  background-color: #f1f1f1;
+  text-align: center; }
+  .header ul {
+    list-style: none; }
+    .header ul li {
+      display: inline-block; }
