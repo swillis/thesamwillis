@@ -1,0 +1,16 @@
+.work {
+	.work-info {
+		&:before {
+			content: '';
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+			margin-right: -0.25em;
+		}
+
+		.work-info-inner {
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}

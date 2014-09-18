@@ -1,3 +1,9 @@
+// Devices
+
+@import "../devices/devices.scss";
+@import "../devices/mixins.scss";
+@import "../devices/style.scss";
+
 // Bootstrap
 
 @import "../bootstrap/bootstrap.scss";
@@ -10,5 +16,6 @@
 @import "nav.scss";
 @import "header.scss";
 @import "bio.scss";
+@import "work.scss";
 @import "design-and-banter.scss";
 @import "contact.scss";
