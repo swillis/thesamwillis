@@ -1,5 +1,9 @@
 .work {
+	background: $grey-scale-2;
+
 	.work-info {
+		height: 778px;
+
 		&:before {
 			content: '';
 			display: inline-block;
@@ -11,6 +15,18 @@
 		.work-info-inner {
 			display: inline-block;
 			vertical-align: middle;
+		}
+	}
+	.work-item {
+		text-align: center;
+
+		.work-item-content {
+			position: absolute;
+			width: 100%;
+		}
+
+		.screen {
+			overflow: hidden;
 		}
 	}
 }

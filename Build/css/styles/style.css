@@ -7531,19 +7531,23 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8em;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   font-family: 'freight-sans-pro', helvetica, sans-serif;
   text-align: justify; }
 
+.section {
+  padding: 50px 0; }
+
 .section-title {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin: 0 0 50px; }
 
 .top-navigation ul.menu {
   text-align: center;
@@ -7583,12 +7587,23 @@ body {
     .header ul li {
       display: inline-block; }
 
-.work .work-info:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; }
-.work .work-info .work-info-inner {
-  display: inline-block;
-  vertical-align: middle; }
+.work {
+  background: #e1e1e3; }
+  .work .work-info {
+    height: 778px; }
+    .work .work-info:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -0.25em; }
+    .work .work-info .work-info-inner {
+      display: inline-block;
+      vertical-align: middle; }
+  .work .work-item {
+    text-align: center; }
+    .work .work-item .work-item-content {
+      position: absolute;
+      width: 100%; }
+    .work .work-item .screen {
+      overflow: hidden; }

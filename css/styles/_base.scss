@@ -1,10 +1,14 @@
 body {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
 	font-family: 'freight-sans-pro', helvetica, sans-serif;
 	text-align: justify;
+}
+
+.section {
+	padding: 50px 0;
 }
 
 .section-title {
@@ -13,4 +17,5 @@ body {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	margin: 0 0 50px;
 }
