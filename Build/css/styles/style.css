@@ -7549,27 +7549,30 @@ body {
   letter-spacing: 1px;
   margin: 0 0 50px; }
 
-.top-navigation ul.menu {
-  text-align: center;
-  margin: 0;
-  padding: 0; }
-  .top-navigation ul.menu li {
-    list-style: none;
-    display: inline-block; }
-    .top-navigation ul.menu li a {
-      display: inline-block;
-      font-weight: 500;
-      padding: 0 25px;
-      line-height: 60px;
-      border-bottom: 3px solid #fff; }
-      .top-navigation ul.menu li a:hover {
-        border-color: red; }
-      .top-navigation ul.menu li a.active {
-        border-color: red; }
+.top-navigation {
+  background: #67b8d8; }
+  .top-navigation ul.menu {
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+    .top-navigation ul.menu li {
+      list-style: none;
+      display: inline-block; }
+      .top-navigation ul.menu li a {
+        display: inline-block;
+        font-weight: 500;
+        padding: 0 25px;
+        line-height: 40px; }
+        .top-navigation ul.menu li a:hover {
+          border-color: red;
+          border-bottom: 3px solid #fff; }
+        .top-navigation ul.menu li a.active {
+          border-color: red;
+          border-bottom: 3px solid #fff; }
 
 .header {
-  background-color: #f9f9f9;
-  height: 80vh; }
+  background-color: #3ea5ce;
+  height: 85vh; }
   .header .header-inner {
     text-align: center;
     position: relative; }
@@ -7582,10 +7585,17 @@ body {
     .header .header-inner .centered-content {
       display: inline-block;
       vertical-align: middle; }
+      .header .header-inner .centered-content h1 {
+        color: #fff;
+        font-weight: 900; }
   .header ul {
     list-style: none; }
     .header ul li {
       display: inline-block; }
+      .header ul li a {
+        color: #1c5870;
+        font-size: 24px;
+        font-weight: 900; }
 
 .work {
   background: #e1e1e3; }
@@ -7607,3 +7617,10 @@ body {
       width: 100%; }
     .work .work-item .screen {
       overflow: hidden; }
+
+.contact ul {
+  text-align: center; }
+  .contact ul li {
+    font-size: 28px;
+    line-height: 1.8em;
+    font-weight: 600; }

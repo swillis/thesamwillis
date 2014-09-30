@@ -1,5 +1,5 @@
 .top-navigation {
-	// border-bottom: 1px solid #e1e1e3;
+	background: lighten($primary-color, 10%);
 
 	ul.menu {
 		text-align: center;
@@ -14,15 +14,17 @@
 				display: inline-block;
 				font-weight: 500;
 				padding: 0 25px;
-				line-height: 60px;
-				border-bottom: 3px solid #fff;
+				line-height: 40px;
+				// border-bottom: 3px solid #fff;
 
 				&:hover {
 					border-color: red;
+					border-bottom: 3px solid #fff;
 				}
 
 				&.active {
 					border-color: red;
+					border-bottom: 3px solid #fff;
 				}
 			}
 		}
