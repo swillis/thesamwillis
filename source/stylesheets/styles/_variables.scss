@@ -1,0 +1,19 @@
+$primary: #564f9e;
+$primary-light: lighten(#564f9e, 10%);
+// $primary-tint: ;
+// $primary-dark: ;
+
+$gray-scale-1: #f0f0f1;
+
+// $headline: #CC3232;
+// $text:    #616e6b;
+// $rule:    #bbc7c5;
+// $non:     #564f9e;
+
+@mixin vertically-center {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
