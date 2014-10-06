@@ -1,8 +1,9 @@
-// vendor
-@import "bootstrap/bootstrap.css";
-
 // variables
 @import "styles/variables";
+
+// vendor
+@import "vendor/bootstrap.css";
+@import "vendor/slider";
 
 // base
 @import "styles/base/base";
