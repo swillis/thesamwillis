@@ -13,7 +13,6 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
     
     <%= stylesheet_link_tag "style" %>
-    <%= javascript_include_tag  "all" %>
 
     <script src="//use.typekit.net/bno4tvq.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -25,6 +24,6 @@
     <%= yield %>
 
     <!-- Scripts -->
-    <script src="javascripts/all.js"></script>
+    <%= javascript_include_tag  "all" %>
   </body>
 </html>
