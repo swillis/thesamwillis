@@ -1,19 +1,65 @@
+.center {
+	@include vertically-center;
+	text-align: center;
+}
+
 .profile {
-	h1, h2, h3 {
-		margin: 0;
-		padding: 0;
+	@include clearfix;
+	text-align: left;
+	display: inline-block;
+
+	.details {
+		float: left;
+		padding: 10px 0 0 20px;
+
+		h1, h2, h3 {
+			margin: 0;
+			padding: 0;
+			font-size: 26px;
+			color: #fff;
+		}
+
+		.myname {
+			font-size: 32px;
+			font-weight: 700;
+			margin: 0 0 5px;
+		}
+
+		.roles {
+			margin: 0 0 5px;
+		}
+
+		.location {
+			opacity: 0.7;
+		}
 	}
 
 	.profile-picture {
 		max-width: 120px;
-		display: inline-block;
+		float: left;
+		border: 2px solid #fff;
+	}
+}
+
+.contact {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+
+	.title {
+		font-size: 13px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #fff;
+		font-weight: 600;
 	}
 
-	.details {
-		display: inline-block;
+	ul.social-icons {
+		list-style: none;
 
-		.my-name {
-			margin:
+		li {
+			display: inline-block;
 		}
 	}
 }
