@@ -1,3 +1,10 @@
+.info {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	opacity: 0.7;
+}
+
 .center {
 	@include vertically-center;
 	text-align: center;
@@ -48,18 +55,52 @@
 	text-align: center;
 
 	.title {
-		font-size: 13px;
+		font-size: 14px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		color: #fff;
 		font-weight: 600;
+		padding: 0 20px 0;
 	}
 
 	ul.social-icons {
 		list-style: none;
+		padding: 0;
+		margin: 10px 0 0;
 
 		li {
-			display: inline-block;
+			// display: inline-block;
+			margin: 0 2px;
+			// border-radius: 50%;
+			// border: 2px solid #fff;
+			// @include transition (all, 0.1s);
+
+			a {
+				color: #fff;
+
+			}
+
+			&:hover {
+				&.twitter {
+					background: $twitter;
+					border-color: $twitter;
+				}
+
+				&.linkedin {
+					background: $linkedin;
+					border-color: $linkedin;
+				}
+
+				&.github {
+					background: $github;
+					border-color: $github;
+				}
+
+				&.dribbble {
+					background: $dribbble;
+					border-color: $dribbble;
+				}
+			}
 		}
 	}
 }
