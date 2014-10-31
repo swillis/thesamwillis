@@ -1,5 +1,5 @@
-$primary: #564f9e;
-$primary-light: lighten(#564f9e, 10%);
+$primary: #42D682;
+$primary-light: lighten($primary, 10%);
 
 $gray-scale-1: #f0f0f1;
 $gray-scale-1: #f0f0f1;
@@ -46,4 +46,22 @@ $dribbble: #ea4c89;
         line-height: 40px;
         color: #fff;
     }
+}
+
+@mixin bp($point) {
+
+  $bp-babybear: "(max-width: 600px)";
+  $bp-mamabear: "(max-width: 1250px)";
+  $bp-papabear: "(max-width: 1600px)";
+
+  @if $point == papa-bear {
+    @media #{$bp-papabear} { @content; }
+  }
+  @else if $point == mama-bear {
+    @media #{$bp-mamabear} { @content; }
+  }
+  @else if $point == baby-bear {
+    @media #{$bp-babybear}  { @content; }
+  }
+
 }

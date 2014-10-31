@@ -2,7 +2,14 @@
 	position: absolute;
 	top: 20px;
 	right: 20px;
-	opacity: 0.7;
+
+	&:hover {
+
+		.button {
+			background: $primary;
+			border-color: $primary;
+		}
+	}
 }
 
 .center {
@@ -13,10 +20,11 @@
 .profile {
 	@include clearfix;
 	text-align: left;
-	display: inline-block;
+	display: inline-table;
 
 	.details {
 		float: left;
+		display: inline-block;
 		padding: 10px 0 0 20px;
 
 		h1, h2, h3 {
@@ -44,7 +52,36 @@
 	.profile-picture {
 		max-width: 120px;
 		float: left;
+		display: inline-block;
 		border: 2px solid #fff;
+	}
+
+	@include bp(baby-bear) {
+		text-align: center;
+
+		.profile-picture,
+		.details {
+			float: none;
+			margin: 0 auto;
+			padding: 0;
+		}
+
+		.profile-picture {
+			max-width: 80px;
+			margin: 0 auto 10px;
+			display: block;
+		}
+
+		.details {
+
+			h2, h3 {
+				font-size: 20px;
+			}
+
+			.myname {
+				font-size: 26px;
+			}
+		}
 	}
 }
 

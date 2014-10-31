@@ -1,8 +1,8 @@
 .fullscreen {
 	position: relative;
 	height: 100vh;
-	// background: $gray-scale-3 url('../images/background.jpg') no-repeat 0 0 scroll;
-	// background-size: cover;
+	background: #111 url('../images/background.jpg') no-repeat;
+	background-size: cover;
 }
 
 .background {
@@ -11,6 +11,4 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: $gray-scale-3 url('../images/background.jpg') no-repeat 0 0 scroll;
-	background-size: cover;
 }

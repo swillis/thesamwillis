@@ -1,7 +1,7 @@
 // Vendor
 
 //= require "vendor/_jquery.min"
-//= require "vendor/_background"
+//= require "vendor/_bootstrap.min"
 
 // Main
 
