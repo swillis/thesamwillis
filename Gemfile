@@ -15,3 +15,6 @@ group :assets do
  gem 'compass-rails'
  # Add any compass extensions here
 end
+
+# Middleman Deploy
+gem 'middleman-deploy', '~> 0.3.0'
