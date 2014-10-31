@@ -39,4 +39,4 @@ Thumbs.db
 # Custom ignores #
 ##################
 
-build/*
+# build/*
