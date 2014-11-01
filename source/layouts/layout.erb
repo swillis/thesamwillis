@@ -12,6 +12,11 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
 
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Sam Willis | Product Designer in London." />
+    <meta property="og:url" content="http://thesamwillis.com" />
+    <meta property="og:image" content="http://thesamwillis.com/images/profile.png" />
+
     <!-- Styles -->
     <%= stylesheet_link_tag "style" %>
 
