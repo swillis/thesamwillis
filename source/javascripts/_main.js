@@ -7,3 +7,5 @@ $('.profile-picture').addClass('animated fadeInLeft');
 $('.title').addClass('animated fadeInDown');
 
 $('.social-icons').addClass('animated fadeInUp');
+
+$('.email').popover()

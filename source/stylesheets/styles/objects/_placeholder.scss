@@ -118,6 +118,12 @@
 			}
 
 			&:hover {
+
+				&.email {
+					background: $primary;
+					border-color: $primary;
+				}
+
 				&.twitter {
 					background: $twitter;
 					border-color: $twitter;
