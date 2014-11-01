@@ -1,10 +1,11 @@
-$(document).ready(function() {
-	$('.slider').fullpage({
-		anchors: ['firstPage', 'secondPage', '3rdPage'],
-		navigation: true,
-		navigationPosition: 'right',
-		navigationTooltips: ['First page', 'Second page', 'Third and last page']
-	});
-});
+// console.log("Message from the author: 'Hey there'");
 
-// console.log("Message from Sam: 'Checking under the hood huh? Can't blame you, but maybe take a look at some of the cool work I've done instead?'");
+$('.details').addClass('animated fadeInRight');
+
+$('.profile-picture').addClass('animated fadeInLeft');
+
+$('.title').addClass('animated fadeInDown');
+
+$('.social-icons').addClass('animated fadeInUp');
+
+$('.email').popover()

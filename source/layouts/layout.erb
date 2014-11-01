@@ -2,28 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
+
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
     <!-- Scale screen for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
-    
+
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Sam Willis | Product Designer in London." />
+    <meta property="og:url" content="http://thesamwillis.com" />
+    <meta property="og:image" content="http://thesamwillis.com/images/profile.png" />
+
+    <!-- Styles -->
     <%= stylesheet_link_tag "style" %>
 
-    <script src="//use.typekit.net/bno4tvq.js"></script>
+    <!-- Typekit -->
+    <script src="//use.typekit.net/rfz2ylb.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
+    <!-- Takana -->
     <script type="text/javascript" src="http://localhost:48626/takana.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
   </head>
-  
+
   <body class="<%= page_classes %>">
+
     <%= yield %>
 
     <!-- Scripts -->
     <%= javascript_include_tag  "all" %>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-39709729-1', 'auto');
+        ga('send', 'pageview');
+    </script>
   </body>
 </html>

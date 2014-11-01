@@ -1,0 +1,149 @@
+.info {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+
+	&:hover {
+
+		.button {
+			background: $primary;
+			border-color: $primary;
+		}
+	}
+}
+
+.center {
+	@include vertically-center;
+	text-align: center;
+}
+
+.profile {
+	@include clearfix;
+	text-align: left;
+	display: inline-table;
+
+	.details {
+		float: left;
+		display: inline-block;
+		padding: 10px 0 0 20px;
+
+		h1, h2, h3 {
+			margin: 0;
+			padding: 0;
+			font-size: 26px;
+			color: #fff;
+		}
+
+		.myname {
+			font-size: 32px;
+			font-weight: 700;
+			margin: 0 0 5px;
+		}
+
+		.roles {
+			margin: 0 0 5px;
+		}
+
+		.location {
+			opacity: 0.7;
+		}
+	}
+
+	.profile-picture {
+		max-width: 120px;
+		float: left;
+		display: inline-block;
+		border: 2px solid #fff;
+	}
+
+	@include bp(baby-bear) {
+		text-align: center;
+
+		.profile-picture,
+		.details {
+			float: none;
+			margin: 0 auto;
+			padding: 0;
+		}
+
+		.profile-picture {
+			max-width: 80px;
+			margin: 0 auto 10px;
+			display: block;
+		}
+
+		.details {
+
+			h2, h3 {
+				font-size: 20px;
+			}
+
+			.myname {
+				font-size: 26px;
+			}
+		}
+	}
+}
+
+.contact {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+
+	.title {
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #fff;
+		font-weight: 600;
+		padding: 0 20px 0;
+	}
+
+	ul.social-icons {
+		list-style: none;
+		padding: 0;
+		margin: 10px 0 0;
+
+		li {
+			// display: inline-block;
+			margin: 0 2px;
+			// border-radius: 50%;
+			// border: 2px solid #fff;
+			// @include transition (all, 0.1s);
+
+			a {
+				color: #fff;
+
+			}
+
+			&:hover {
+
+				&.email {
+					background: $primary;
+					border-color: $primary;
+				}
+
+				&.twitter {
+					background: $twitter;
+					border-color: $twitter;
+				}
+
+				&.linkedin {
+					background: $linkedin;
+					border-color: $linkedin;
+				}
+
+				&.github {
+					background: $github;
+					border-color: $github;
+				}
+
+				&.dribbble {
+					background: $dribbble;
+					border-color: $dribbble;
+				}
+			}
+		}
+	}
+}
