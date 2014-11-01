@@ -45,9 +45,9 @@
 #   end
 # end
 
-set :css_dir, 'thesamwillis/stylesheets'
+set :css_dir, 'stylesheets'
 
-set :js_dir, 'thesamwillis/javascripts'
+set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
