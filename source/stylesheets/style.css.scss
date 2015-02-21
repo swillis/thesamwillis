@@ -5,7 +5,7 @@
 @import "styles/variables";
 
 // vendor
-@import "vendor/bootstrap.css";
+@import "vendor/bootstrap.min.css";
 @import "vendor/animate.css";
 
 // base
@@ -14,4 +14,5 @@
 @import "styles/base/layout";
 
 // objects
-@import "styles/objects/placeholder";
+@import "styles/objects/nav";
+@import "styles/objects/homepage";

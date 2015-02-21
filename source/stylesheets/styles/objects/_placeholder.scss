@@ -6,8 +6,8 @@
 	&:hover {
 
 		.button {
-			background: $primary;
-			border-color: $primary;
+			background: $primary-color-1;
+			border-color: $primary-color-1;
 		}
 	}
 }
@@ -120,8 +120,8 @@
 			&:hover {
 
 				&.email {
-					background: $primary;
-					border-color: $primary;
+					background: $primary-color-1;
+					border-color: $primary-color-1;
 				}
 
 				&.twitter {

@@ -1,9 +1,9 @@
 $primary-color-1: #42D682;
-$primary-color-2: lighten($primary, 10%);
+$primary-color-2: lighten($primary-color-1, 10%);
 
-$gray-scale-1: #f0f0f1;
-$gray-scale-2: #e1e1e3;
-$gray-scale-3: #999;
+$grey-scale-1: #f0f0f1;
+$grey-scale-2: #e1e1e3;
+$grey-scale-3: #999;
 
 $twitter: #00aced;
 $linkedin: #007bb6;
