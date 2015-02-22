@@ -1,21 +1,26 @@
-$primary-color-1: #42D682;
+$primary-color-1: green;
 $primary-color-2: lighten($primary-color-1, 10%);
 
-$grey-scale-1: #f0f0f1;
+$grey-scale-1: #f7f7f9;
 $grey-scale-2: #e1e1e3;
 $grey-scale-3: #999;
+$grey-scale-4: #333;
 
 $twitter: #00aced;
 $linkedin: #007bb6;
 $github: #171515;
 $dribbble: #ea4c89;
 
+$serif: 'Merriweather', times, serif;
+
+$sans: 'Roboto', 'helvetica neue', helvetica, sans-serif;
+
 @mixin clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 
 @mixin vertically-center {
@@ -27,9 +32,9 @@ $dribbble: #ea4c89;
 }
 
 @mixin preserve {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .button {
@@ -50,18 +55,18 @@ $dribbble: #ea4c89;
 
 @mixin bp($point) {
 
-  $bp-babybear: "(max-width: 600px)";
-  $bp-mamabear: "(max-width: 1250px)";
-  $bp-papabear: "(max-width: 1600px)";
+    $bp-babybear: "(max-width: 600px)";
+    $bp-mamabear: "(max-width: 1250px)";
+    $bp-papabear: "(max-width: 1600px)";
 
-  @if $point == papa-bear {
-    @media #{$bp-papabear} { @content; }
-  }
-  @else if $point == mama-bear {
-    @media #{$bp-mamabear} { @content; }
-  }
-  @else if $point == baby-bear {
-    @media #{$bp-babybear}  { @content; }
-  }
+    @if $point == papa-bear {
+        @media #{$bp-papabear} { @content; }
+    }
+    @else if $point == mama-bear {
+        @media #{$bp-mamabear} { @content; }
+    }
+    @else if $point == baby-bear {
+        @media #{$bp-babybear}  { @content; }
+    }
 
 }

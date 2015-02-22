@@ -11,5 +11,33 @@
 
 	.case-studies {
 		background-color: $grey-scale-1;
+
+		.case-study-image {
+			max-width: 100%;
+			height: 240px;
+			background-color: $grey-scale-2;
+		}
+	}
+
+	.contact {
+		.email {
+			color: $primary-color-1;
+		}
+
+		.twitter {
+			color: $twitter;
+		}
+
+		.linkedin {
+			color: $linkedin;
+		}
+
+		.github {
+			color: $github;
+		}
+
+		.dribbble {
+			color: $dribbble;
+		}
 	}
 }

@@ -1,5 +1,5 @@
 body {
-	font-family: 'Merriweather', serif;
+	font-family: $serif;
 	-webkit-font-smoothing: antialiased;
 	font-size: 21px;
 	line-height: 1.6em;
@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'Roboto', 'helvetica neue', helvetica, sans-serif;
+	font-family: $sans;
 }
 
 h1 {
@@ -17,9 +17,17 @@ h1 {
 }
 
 h2 {
+	margin: 1.5em 0 0;
 	font-size: 1.5em;
 	line-height: 1.4em;
 	font-weight: 800;
+}
+
+h3 {
+	margin: 0.9em 0 0;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-weight: 600;
 }
 
 a {

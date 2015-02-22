@@ -18,3 +18,6 @@ end
 
 # Middleman Deploy
 gem 'middleman-deploy', '~> 0.3.0'
+
+# Middleman Blog
+gem "middleman-blog"
