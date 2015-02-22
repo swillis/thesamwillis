@@ -48,16 +48,16 @@ From analysis of both our usability testing and our in-app tracking we identifie
 
 3. Overhaul and simplify our invitation process.
 
-### 1. Tab Menu
-The tab menu is a widely adopted approach to app navigation and has two main benefits over a slide out menu in that it does not hide functionality and something else... (at the time, I also read this post which was very informative and contained links to valid research).
-
-### 2. Get Started Walkthrough
+### 1. Get Started Walkthrough
 This is also a common approach for apps to try to give the user an idea of the apps purpose and highlight the benefits of using the app. We decided to keep this to just 3 slides that highlighted 3 of the main tenets of the 23snaps product. why?
+
+### 2. Tab Menu
+The tab menu is a widely adopted approach to app navigation and has two main benefits over a slide out menu in that it does not hide functionality and something else... (at the time, I also read this post which was very informative and contained links to valid research).
 
 ### 3. Overhaul and simplify the invitation process
 This step required a lot of thinking and work from our development team as the previous process had slowly evolved over time into a complex and mammoth beast. We refactored, simplified and redesigned a lot of the screens that users face during this process, as well as adjusting a lot of the copy so that was more clear and concise.
 
-## So... did it work?
+## So… did it work?
 During the implementation of the tab menu, we still had some usability testing sessions lined up, so we started trialling the new system with the participants and straight away we saw people navigating through the app with more fluidity and ease.
 
 The getting started walkthrough was a little more difficult to test as it wasn't ready in time for that round of testing (we should really be doing more, but honestly we haven't made the time for it), but we felt quite confident that if users were reading it – we were tracking how many people completed the walkthrough – then they would have a much clearer understanding of what 23snaps did than if they didn't.
