@@ -4,20 +4,19 @@ title: Sam Willis - Product Designer
 
 .homepage
 
-	.page-header
+	.page-header#large-header
+		<canvas id="demo-canvas"></canvas>
 		.container
 			.row
 				.col-sm-12
-					//%h1 I am a Digital Product Designer
-
-					%h1 This site is a work in progress
-					%h2.subheader So please don't judge.
+					%h1 I Make Digital Products
+					%h2.subheader And other things
 
 	.introduction.section
 		.container
 			.row
 				.col-sm-8.col-sm-offset-2
-					%h2 About Me
+					%h2.section-header About Me
 
 					%p.first-paragraph I am a Digital Product Designer based in London and am currently working at Soho-based incubator Evori.
 
@@ -27,39 +26,47 @@ title: Sam Willis - Product Designer
 		.container
 			.row
 				.col-sm-8.col-sm-offset-2
-					%h2 Case Studies
+					%h2.section-header Case Studies
 
 					.row
 						.col-sm-6
-							.case-study-image
-								image_tag("/images/")
-							%h3 Test Case Study
-							%p Small summary
-							%a.cta{:href => "/case-studies/styloko-trend-pages.html"} Read more
+							%a.cta{:href => "/case-studies/styloko-trend-pages.html"}
+								.case-study
+									%h3 Styloko: Trend Pages
 
 						.col-sm-6
-							.case-study-image
-								image_tag("/images/")
-							%h3 Test Case Study
-							%p Small summary
-							%a.cta{:href => "/case-studies/23snaps-frictionless-onboarding.html"} Read more
+							%a.cta{:href => "/case-studies/23snaps-frictionless-onboarding.html"}
+								.case-study
+									%h3 23snaps: Onboarding
+
+	.designandbanter.section
+		.container
+			.row
+				.col-sm-8.col-sm-offset-2
+					%h2.section-header Design+Banter
+
+					%p Design+Banter is a community meetup for Designers, organised by myself and Gearóid O'Rourke. Every month we invite the best and brightest minds in London to talk about and debate issues around the topic of Design.
+
+					%p If you are interested in speaking at, or sponsoring a future Design+Banter then please do get in touch.
+
+					%p If you want to stay up to date with D+B news and ticket releases then make sure to sign up to our mailing list and follow us on Twitter!
 
 	.contact.section
 		.container
 			.row
 				.col-sm-8.col-sm-offset-2
-					%h2 Get in touch
+					%h2.section-header Get in touch
 
-					%p If you are interested in talking or sponsoring Design+Banter, interested in my work, want to stalk me, or simply want to chat then you can get me on the following channels:
+					%p If you want to hear more about Design+Banter, are interested in my work, or just want to chat, then do so on any of these channels:
 
-					%ul
+					%ul.social
 						%li
 							%a.twitter{:href => "/"} Twitter
-						%li
-							%a.github{:href => "/"} Github
 						%li
 							%a.dribbble{:href => "/"} Dribbble
 						%li
 							%a.linkedin{:href => "/"} Linkedin
+						%li
+							%a.github{:href => "/"} Github
 						%li
 							%a.email{:href => "/"} Email

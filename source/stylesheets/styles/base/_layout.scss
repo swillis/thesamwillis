@@ -1,5 +1,5 @@
 .page-header {
-	height: 80vh;
+	height: 90vh;
 	text-align: center;
 	background-color: $grey-scale-3;
 	@include preserve;
@@ -19,7 +19,7 @@
 		font-size: 1em;
 		margin: 0.6em 0 0;
 		color: #fff;
-		opacity: 0.5;
+		opacity: 0.75;
 	}
 }
 

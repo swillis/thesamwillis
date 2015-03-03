@@ -1,8 +1,23 @@
 .homepage {
 	.page-header {
+		background-color: $primary-color-1;
+		#demo-canvas {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
 		h1 {
 			color: #fff;
 		}
+	}
+
+	h2.section-header {
+		font-size: 2.7em;
+		color: $primary-color-3;
+		margin: 0 0 0.3em;
 	}
 
 	.introduction {
@@ -12,32 +27,79 @@
 	.case-studies {
 		background-color: $grey-scale-1;
 
-		.case-study-image {
-			max-width: 100%;
-			height: 240px;
-			background-color: $grey-scale-2;
+		.case-study {
+			position: relative;
+			background-color: $grey-scale-4;
+			border-radius: 6px;
+			padding: 30px;
+			height: 270px;
+
+			h3 {
+				color: #fff;
+				position: absolute;
+				bottom: 30px;
+				left: 30px;
+			}
 		}
 	}
 
+	.designandbanter {
+		h2.section-header {
+			color: #fff;
+		}
+		background-color: $primary-color-1;
+	}
+
 	.contact {
-		.email {
-			color: $primary-color-1;
-		}
 
-		.twitter {
-			color: $twitter;
-		}
+		.social {
+			font-family: $sans;
+			list-style: none;
+			margin: 30px 0 0;
+			padding: 0;
+			// text-align: center;
 
-		.linkedin {
-			color: $linkedin;
-		}
+			li {
+				display: block;
+				font-size: 3em;
+				line-height: 1em;
+				font-weight: 900;
+				opacity: 0.3;
+				margin: 0 0 30px;
 
-		.github {
-			color: $github;
-		}
+				&:hover {
+					opacity: 1;
+				}
 
-		.dribbble {
-			color: $dribbble;
+				a {
+					display: block;
+				}
+
+				.email {
+					color: $primary-color-1;
+					border-color: $primary-color-1;
+				}
+
+				.twitter {
+					color: $twitter;
+					border-color: $twitter;
+				}
+
+				.linkedin {
+					color: $linkedin;
+					border-color: $linkedin;
+				}
+
+				.github {
+					color: $github;
+					border-color: $github;
+				}
+
+				.dribbble {
+					color: $dribbble;
+					border-color: $dribbble;
+				}
+			}
 		}
 	}
 }
