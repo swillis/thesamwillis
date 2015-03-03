@@ -44,10 +44,15 @@
 	}
 
 	.designandbanter {
+		background-color: $primary-color-1;
+
 		h2.section-header {
 			color: #fff;
 		}
-		background-color: $primary-color-1;
+
+		p {
+			color: #fff;
+		}
 	}
 
 	.contact {
