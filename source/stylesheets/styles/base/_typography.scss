@@ -17,10 +17,11 @@ h1 {
 }
 
 h2 {
-	margin: 1.5em 0 0;
-	font-size: 1.5em;
+	margin: 1.5em 0 0.5em;
+	font-size: 1.8em;
 	line-height: 1.4em;
 	font-weight: 800;
+	color: $primary-color-4;
 }
 
 h3 {
@@ -28,10 +29,11 @@ h3 {
 	font-size: 1.2em;
 	line-height: 1.4em;
 	font-weight: 600;
+	color: $primary-color-1;
 }
 
 a {
-	&:hover {
+	&:hover, &:active {
 		text-decoration: none;
 	}
 }
@@ -42,4 +44,11 @@ p {
 	&.first-paragraph {
 		font-weight: 600;
 	}
+}
+
+blockquote {
+	font-style: italic;
+	margin: 0 0 3em;
+	padding: 0 0 0 1.5em;
+	border-left: 5px solid $primary-color-1;
 }
