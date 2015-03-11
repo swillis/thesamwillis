@@ -1,11 +1,12 @@
 .footer {
-	background-color: $grey-scale-4;
+	background-color: $grey-scale-1;
 	font-family: $sans;
-	font-size: 0.6em;
+	font-size: 0.75em;
 	text-align: center;
+	border-top: 1px solid $grey-scale-2;
 
 	p {
-		color: #fff;
+		color: $primary-color-1;
 		margin: 0;
 		line-height: 6em;
 		font-weight: 500;

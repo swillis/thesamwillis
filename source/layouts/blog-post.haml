@@ -16,11 +16,6 @@
         %meta{:content => "http://thesamwillis.com/images/profile.png", :property => "og:image"}/
         / Styles
         = stylesheet_link_tag "style"
-        / Typekit
-        / Takana
-        %script{:src => "http://localhost:48626/takana.js", :type => "text/javascript"}
-        :javascript
-            takanaClient.run({host: 'localhost:48626'});
         / Font Awesome
         %link{:href => "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", :rel => "stylesheet"}/
 
@@ -41,8 +36,6 @@
                     .col-sm-8.col-sm-offset-2
 
                         = yield
-
-    = partial "partials/footer"
 
     / Scripts
     = javascript_include_tag  "all"

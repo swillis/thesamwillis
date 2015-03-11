@@ -17,8 +17,36 @@
 
 	}
 
+	.angle {
+		position: relative;
+
+		&:before {
+			content: '';
+			width: 0;
+			height: 0;
+			border-left: 0px solid transparent;
+			border-right: 100vw solid transparent;
+			border-top: 60px solid #fff;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
 	.case-studies {
-		background-color: $grey-scale-1;
+		background-color: $primary-color-4;
+
+		&.section {
+			padding: 150px 0;
+		}
+
+		h2.section-header {
+			color: #fff;
+		}
+
+		p {
+			color: #fff;
+		}
 
 		.case-study {
 			position: relative;
@@ -37,7 +65,32 @@
 	}
 
 	.designandbanter {
-		background-color: $primary-color-1;
+		background-image: url('../images/db-bg.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+
+		&.section {
+			padding: 150px 0;
+		}
+
+		&.angle {
+
+			&:before {
+				border-top: 60px solid $primary-color-4;
+			}
+
+			&:after {
+				content: '';
+				width: 0;
+				height: 0;
+				border-left: 100vw solid transparent;
+				border-right: 0px solid transparent;
+				border-bottom: 60px solid #fff;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+			}
+		}
 
 		h2.section-header {
 			color: #fff;
@@ -95,3 +148,11 @@
 		}
 	}
 }
+
+// #triangle-down {
+// 	width: 0;
+// 	height: 0;
+// 	border-left: 50px solid transparent;
+// 	border-right: 50px solid transparent;
+// 	border-top: 100px solid red;
+// }
