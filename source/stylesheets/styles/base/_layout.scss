@@ -38,10 +38,17 @@
 
 .section {
 	padding: 90px 0;
+	background-color: #fff;
 }
 
 .back {
 	display: block;
 	margin: 2em 0 0;
 	font-weight: bold;
+}
+
+.post-image {
+	max-width: 100%;
+	margin: 60px auto;
+	height: auto;
 }

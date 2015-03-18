@@ -1,14 +1,22 @@
 .footer {
-	background-color: $grey-scale-1;
+	background-color: $grey-scale-4;
 	font-family: $sans;
-	font-size: 0.75em;
-	text-align: center;
-	border-top: 1px solid $grey-scale-2;
+	font-size: 0.6em;
+	text-align: right;
+	position: relative;
+	padding: 45px 0 30px;
+	color: $grey-scale-3;
+	line-height: 1em;
 
-	p {
-		color: $primary-color-1;
-		margin: 0;
-		line-height: 6em;
-		font-weight: 500;
+	&:before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 0px solid transparent;
+		border-right: 100vw solid transparent;
+		border-top: 60px solid #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 }
