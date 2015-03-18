@@ -5,11 +5,9 @@ layout: blog-post
 
 ## What is Styloko?
 
-_“The Shopping Discovery Engine™”_
+> “The Shopping Discovery Engine™”_
 
-_“We believe every woman should have a personal shopping experience that enables her to discover products she’ll love without having to scroll through the ones she doesn’t. That’s why we created it. At Styloko, enjoy bespoke product feeds that react in real-time to your browsing behavior; curated personal boutiques that enable you to save and keep track of favorite fashion finds (as well as shop the edits of other like-minded style-savvy women); and e-commerce enabled content that allows you to shop directly from inspiration.”_
-
-_– Styloko.com_
+> “We believe every woman should have a personal shopping experience that enables her to discover products she’ll love without having to scroll through the ones she doesn’t. That’s why we created it. At Styloko, enjoy bespoke product feeds that react in real-time to your browsing behaviour; curated personal boutiques that enable you to save and keep track of favourite fashion finds (as well as shop the edits of other like-minded style-savvy women); and e-commerce enabled content that allows you to shop directly from inspiration.” **– Styloko.com**
 
 **Styloko uses cutting edge technology to connect women with products they love. Our focus is to power shopping discovery by using data analysis and cutting edge technology.**
 
@@ -20,7 +18,7 @@ There are 2 core aspects of the Styloko brand: The Style Hub, the editorial home
 [IMAGE - Styloko]
 
 ## The Problem - connecting editorial with shopping
-Alongside positioning Styloko as a leading player in the fashion tech industry, one of the main goals of The Style Hub is to drive traffic to the Styloko app. The idea is that users read and feel inspired by the great content on The Style Hub, and then buy products from Styloko app. In order to better facilitate this, we felt that we needed to create a more seamless integration between the editorial and shopping worlds and create 'shoppable content', where editorials on fashion trends could be supported by live products.
+Alongside positioning Styloko as a leading player in the fashion tech industry, one of the main goals of The Style Hub is to drive traffic to the Styloko app. The idea is that users read and feel inspired by the great content on The Style Hub, and then buy products from Styloko.com. In order to better facilitate this, we felt that we needed to create a more seamless integration between the editorial and shopping worlds and create 'shoppable content', where editorials on fashion trends could be supported by live products.
 
 And so we created the 'Trend Pages'.
 
@@ -47,9 +45,9 @@ The Trend Index page highlights the latest Trends by ordering them newest-to-old
 [IMAGE - Trend Index on mobile]
 
 ## How did it perform?
-The Trend Pages remain a very popular feature on Styloko and always receive a large share of page views when they are released. They also have very long dwell times and low bounce rates, which indicates that users are sticking around and enjoying the content.
+the trend pages have become a very popular feature on Styloko and always receive a large amount of engagement when they are released. They also have very long dwell times and low bounce rates, which indicates that users are sticking around and enjoying the content.
 
 The pages also performed well with regards to conversions, leading to an immediate increase after feature launch, and have continue to be a solid source of conversions on the Styloko site.
 
 ## Did we have to change anything?
-Fashion is always moving forwards, which means that, other than the odd curious visitor once in a while, after a few weeks a Trend Page will stop receiving as many page views. This is something we had anticipated, and we now remove trends after a certain amount of time to ensure that what we are showing is still relevant.
+The fast-changing nature of the fashion industry and its trends mean that content can become stale quickly. This is something we had anticipated, and we have to remove some trends after a while to keep them current and relevant.

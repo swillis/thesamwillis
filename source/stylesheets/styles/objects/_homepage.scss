@@ -51,7 +51,7 @@
 		.case-study {
 			position: relative;
 			background-color: $grey-scale-4;
-			border-radius: 6px;
+			border-radius: 3px;
 			padding: 30px;
 			height: 270px;
 
@@ -68,6 +68,11 @@
 		background-image: url('../images/db-bg.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+
+		.db-logo {
+			max-width: 300px;
+			margin: 0 0 2em;
+		}
 
 		&.section {
 			padding: 150px 0;

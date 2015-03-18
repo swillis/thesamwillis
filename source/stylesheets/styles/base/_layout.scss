@@ -5,29 +5,17 @@
 	background-color: $grey-scale-3;
 	@include preserve;
 
-	// &:before {
-	// 	content: '';
-	// 	position: absolute;
-	// 	bottom: 0;
-	// 	left: 0;
-	// 	width: 100%;
-	// 	height: 60px;
-	// 	background-image: url('../images/angle-thing-bottom.png');
-	// 	background-repeat: no-repeat;
-	// 	background-size: 100% 100%;
-	// }
-
-		&:before {
-			content: '';
-			width: 0;
-			height: 0;
-			border-left: 100vw solid transparent;
-			border-right: 0px solid transparent;
-			border-bottom: 60px solid #fff;
-			position: absolute;
-			bottom: 0;
-			left: 0;
-		}
+	&:before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 100vw solid transparent;
+		border-right: 0px solid transparent;
+		border-bottom: 60px solid #fff;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
 
 	.container {
 		@include vertically-center;
@@ -50,4 +38,10 @@
 
 .section {
 	padding: 90px 0;
+}
+
+.back {
+	display: block;
+	margin: 2em 0 0;
+	font-weight: bold;
 }

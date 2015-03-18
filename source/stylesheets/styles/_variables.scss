@@ -45,34 +45,39 @@ $sans: 'Roboto', 'helvetica neue', helvetica, sans-serif;
 
 .button {
     display: inline-block;
-    border-radius: 50%;
-    border: 2px solid #fff;
     text-align: center;
+    font-family: $sans;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
     cursor: pointer;
+    padding: 0.5em 1.5em;
+    border-radius: 3px;
+    color: $twitter;
+    background-color: #fff;
     @include transition (all, 0.1s);
 
-    i {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
+    &:hover {
         color: #fff;
+        background-color: $twitter;
     }
 }
 
-@mixin bp($point) {
+// @mixin bp($point) {
 
-    $bp-babybear: "(max-width: 600px)";
-    $bp-mamabear: "(max-width: 1250px)";
-    $bp-papabear: "(max-width: 1600px)";
+//     $bp-babybear: "(max-width: 600px)";
+//     $bp-mamabear: "(max-width: 1250px)";
+//     $bp-papabear: "(max-width: 1600px)";
 
-    @if $point == papa-bear {
-        @media #{$bp-papabear} { @content; }
-    }
-    @else if $point == mama-bear {
-        @media #{$bp-mamabear} { @content; }
-    }
-    @else if $point == baby-bear {
-        @media #{$bp-babybear}  { @content; }
-    }
+//     @if $point == papa-bear {
+//         @media #{$bp-papabear} { @content; }
+//     }
+//     @else if $point == mama-bear {
+//         @media #{$bp-mamabear} { @content; }
+//     }
+//     @else if $point == baby-bear {
+//         @media #{$bp-babybear}  { @content; }
+//     }
 
-}
+// }
