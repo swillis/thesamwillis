@@ -16,12 +16,6 @@
     <meta content='http://thesamwillis.com/images/profile.png' property='og:image'>
     <!-- Styles -->
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
-    <!-- Typekit -->
-    <!-- Takana -->
-    <script src='http://localhost:48626/takana.js' type='text/javascript'></script>
-    <script>
-      takanaClient.run({host: 'localhost:48626'});
-    </script>
     <!-- Font Awesome -->
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'>
   </head>
@@ -29,21 +23,18 @@
     <div class='nav'>
       <div class='container'>
         <div class='row'>
-          <div class='col-sm-2'>
+          <div class='col-xs-6'>
             <div class='name-link'>
               <a href='/'>Sam J. Willis</a>
             </div>
           </div>
-          <div class='col-sm-10'>
+          <div class='col-xs-6'>
             <ul class='menu'>
               <li class='active'>
                 <a href='/'>Home</a>
               </li>
               <li>
                 <a href='/'>Case Studies</a>
-              </li>
-              <li>
-                <a href='/'>Experience</a>
               </li>
               <li>
                 <a href='/'>Contact</a>
@@ -58,9 +49,8 @@
         <div class='container'>
           <div class='row'>
             <div class='col-sm-12'>
-              <!-- /%h1 I am a Digital Product Designer -->
-              <h1>This site is a work in progress</h1>
-              <h2 class='subheader'>So please don't judge.</h2>
+              <h1>I Make Digital Products</h1>
+              <h2 class='subheader'>And other things</h2>
             </div>
           </div>
         </div>
@@ -69,61 +59,76 @@
         <div class='container'>
           <div class='row'>
             <div class='col-sm-8 col-sm-offset-2'>
-              <h2>About Me</h2>
+              <h2 class='section-header'>About Me</h2>
               <p class='first-paragraph'>I am a Digital Product Designer based in London and am currently working at Soho-based incubator Evori.</p>
               <p>I have over 4 years experience as a Product Designer and Front-End Engineer across a handful of startups and small businesses in the UK. I also have a degree in Business, and co-organise monthly Designer meetup: Design+Banter.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class='case-studies section'>
+      <div class='case-studies section angle'>
         <div class='container'>
           <div class='row'>
             <div class='col-sm-8 col-sm-offset-2'>
-              <h2>Case Studies</h2>
+              <h2 class='section-header'>Case Studies</h2>
+              <p>Here are a couple of projects I have worked on recently:</p>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-sm-8 col-sm-offset-2'>
               <div class='row'>
                 <div class='col-sm-6'>
-                  <div class='case-study-image'>
-                    image_tag("/images/")
-                  </div>
-                  <h3>Test Case Study</h3>
-                  <p>Small summary</p>
-                  <a class='cta' href='/case-studies/styloko-trend-pages.html'>Read more</a>
+                  <a class='cta' href='/case-studies/23snaps-frictionless-onboarding.html'>
+                    <div class='case-study'>
+                      <h3>23snaps: Onboarding</h3>
+                    </div>
+                  </a>
                 </div>
                 <div class='col-sm-6'>
-                  <div class='case-study-image'>
-                    image_tag("/images/")
-                  </div>
-                  <h3>Test Case Study</h3>
-                  <p>Small summary</p>
-                  <a class='cta' href='/case-studies/23snaps-frictionless-onboarding.html'>Read more</a>
+                  <a class='cta' href='/case-studies/styloko-trend-pages.html'>
+                    <div class='case-study'>
+                      <h3>Styloko: Trend Pages</h3>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class='contact section'>
+      <div class='designandbanter section angle' data-stellar-background-ratio='0.5'>
         <div class='container'>
           <div class='row'>
             <div class='col-sm-8 col-sm-offset-2'>
-              <h2>Get in touch</h2>
-              <p>If you are interested in talking or sponsoring Design+Banter, interested in my work, want to stalk me, or simply want to chat then you can get me on the following channels:</p>
-              <ul>
+              <img class='db-logo' src='/images/db-logo.png'>
+              <p>Design+Banter is a meetup for Designers organised by myself and Gearóid O'Rourke. Every month ~200 Designers get together to trade stories, share ideas, and have a few drinks too.</p>
+              <p>If you are a Designer, you should come! If you would like to speak at or sponsor a future event, I would love to hear from you.</p>
+              <a class='button' href='/'>Follow us on Twitter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='contact section angle'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-8 col-sm-offset-2'>
+              <h2 class='section-header'>Get in touch</h2>
+              <p>If you want to hear more about Design+Banter, are interested in my work, or just want to chat, then do so on any of these channels:</p>
+              <ul class='social'>
                 <li>
-                  <a class='twitter' href='/'>Twitter</a>
+                  <a class='twitter' href='/'>Twitter,</a>
                 </li>
                 <li>
-                  <a class='github' href='/'>Github</a>
+                  <a class='dribbble' href='/'>Dribbble,</a>
                 </li>
                 <li>
-                  <a class='dribbble' href='/'>Dribbble</a>
+                  <a class='linkedin' href='/'>Linkedin,</a>
                 </li>
                 <li>
-                  <a class='linkedin' href='/'>Linkedin</a>
+                  <a class='github' href='/'>Github,</a>
                 </li>
                 <li>
-                  <a class='email' href='/'>Email</a>
+                  <a class='email' href='/'>Email.</a>
                 </li>
               </ul>
             </div>
@@ -134,8 +139,8 @@
     <div class='footer'>
       <div class='container'>
         <div class='row'>
-          <div class='col-sm-12'>
-            <p>Designed and built by me! Using Middleman, SCSS, HAML & JQUERY. Hosted on GitHub Pages.</p>
+          <div class='col-sm-12 pull-right'>
+            <p>Built with Middleman, SCSS, HAML, love & JQUERY. Hosted on GitHub Pages. Photo Credit: <a href="https://www.flickr.com/photos/mikestezy/12936857645/in/set-72157641878148564">Mr Stezz</a>.</p>
           </div>
         </div>
       </div>
