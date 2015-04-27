@@ -9,7 +9,9 @@ layout: blog-post
 
 23snaps allows parents to create a curated record of their children's special moments, and gives close family and friends a platform to feel a part of, and contribute to what is going on in their little relative's lives.
 
-<img class="post-image" src="../images/23snaps-devices.png">
+<div class="post-image">
+	<img src="../images/23snaps-devices.png">
+</div>
 
 A crucial factor to 23snaps success is that a family's content must be available to members of the family of all ages and digital confidence. It breaks down if Grandparents can't access photos on their email, for example, or if an Uncle on Android is unable to see posts from the parents on iOS. Therefore making 23snaps a cross-platform application, that is accessible across the board is paramount to success.
 
@@ -52,18 +54,21 @@ From analysis of both our usability testing and our in-app tracking we identifie
 ### 1. Get Started Walkthrough
 This is also a common approach for apps to try to give the user an idea of the apps purpose and highlight the benefits of using the app. We decided to keep this to just 3 slides that highlighted 3 of the main tenets of the 23snaps product. Any fewer than 3 slides might mean we struggled to communicate our message to the user. But too many mean that users get tired or impatient and either skip the tutorial or exit the app entirely.
 
-<img class="post-image" src="../images/23snaps-welcome-screens.png">
-
+<div class="post-image">
+	<img src="../images/23snaps-welcome-screens.png">
+</div>
 ### 2. Tab Menu
 The tab menu is a tried and tested approach to app navigation and seemed to suit our needs perfectly. One of the main benefits of this menu paradigm are that it does not hide any functionality, meaning that core features of the app are always in view (perfect for our users finding it difficult to navigate the app). Tab menus are also much more efficient than our previous slide out menu, as they require the user to make fewer taps (or clicks) to ravel through an app.
 
-<img class="post-image" src="../images/23snaps-tab-menu.png">
-
+<div class="post-image">
+	<img src="../images/23snaps-tab-menu.png">
+</div>
 ### 3. Overhaul and simplify the invitation process
 This step required a lot of thinking and work from our development team as the previous process had slowly evolved over time into a complex and mammoth beast. On the web app for example, we had many screens for the ways in which users might be invited to the app (we allow for SMS, email and third party invitations). To combat this we reduced the number of pages that the user encountered and opted for one invite screen that could be adapted to the various contexts. We also adjusted a lot of the messaging throughout the process to make it more concise and coherent.
 
-<img class="post-image" src="../images/23snaps-invite-screen.png">
-
+<div class="post-image">
+	<img src="../images/23snaps-invite-screen.png">
+</div>
 ## Did it work?
 During the implementation of the tab menu, we still had some usability testing sessions lined up, so we started trialling the new system with the participants and straight away we saw people navigating through the app with more fluidity and ease.
 

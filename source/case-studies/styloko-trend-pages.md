@@ -5,7 +5,7 @@ layout: blog-post
 
 ## What is Styloko?
 
-> “The Shopping Discovery Engine™”_
+> “The Shopping Discovery Engine™”
 
 > “We believe every woman should have a personal shopping experience that enables her to discover products she’ll love without having to scroll through the ones she doesn’t. That’s why we created it. At Styloko, enjoy bespoke product feeds that react in real-time to your browsing behaviour; curated personal boutiques that enable you to save and keep track of favourite fashion finds (as well as shop the edits of other like-minded style-savvy women); and e-commerce enabled content that allows you to shop directly from inspiration.” **– Styloko.com**
 

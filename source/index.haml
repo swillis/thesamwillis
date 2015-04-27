@@ -9,7 +9,7 @@ title: Sam Willis - Product Designer
 			.row
 				.col-sm-12
 					%h1 I Design Digital Products
-					%h2.subheader Among other things
+					%h2.subheader This is still a work in progress, so please excuse any rough edges!
 
 	.introduction.section
 		.container
@@ -21,7 +21,7 @@ title: Sam Willis - Product Designer
 
 					%p I have over 4 years experience as a Product Designer and Front-End Engineer across a handful of startups and small businesses in the UK. I also have a degree in Business, and co-organise monthly Designer meetup: Design+Banter.
 
-	.case-studies.section
+	.case-studies.section#case-studies
 		.container
 			.row
 				.col-sm-8.col-sm-offset-2
@@ -30,16 +30,21 @@ title: Sam Willis - Product Designer
 					%p Here are a couple of projects I have worked on recently:
 
 			.row
-				.col-sm-8.col-sm-offset-2
+				.col-md-8.col-md-offset-2
 					.row
-						.col-sm-6
+						.col-md-6
 							%a.cta{:href => "case-studies/23snaps-frictionless-onboarding.html"}
-								.case-study
-									%h3 23snaps: Onboarding
-						.col-sm-6
+								.case-study.snaps
+									%h4 23snaps: Onboarding
+						.col-md-6
 							%a.cta{:href => "case-studies/styloko-trend-pages.html"}
-								.case-study
-									%h3 Styloko: Trend Pages
+								.case-study.styloko
+									%h4 Styloko: Trend Pages
+
+						.col-md-6
+							%a.cta{:href => "case-studies/styloko-trend-pages.html"}
+								.case-study.printastic
+									%h4 Printastic: Coming Soon&hellip;
 
 	.experience.section
 		.container
@@ -57,14 +62,20 @@ title: Sam Willis - Product Designer
 						%li.experience-item
 							%span.date 2013 - 2014
 							%h3.company Listora
-							%span.role | Designer
+							%span.role | Design & Front End
 							%p.summary Listora helps event publishers and organisers to promote and drive traffic to online event listings.
 
 						%li.experience-item
 							%span.date 2014 - Present
 							%h3.company Evori
-							%span.role | Designer
+							%span.role | Design & Front End
 							%p.summary The team at Evori build award winning startups, from scratch. Their portfolio currently consists of 23snaps, Styloko & Printastic.
+
+						%li.experience-item
+							%span.date 2011 - Present
+							%h3.company Ongoing Freelance Work
+							%span.role | Design, Consulting & Front End
+							%p.summary There are too many to list here, but I am always busily working away at freelance or side projects. See below for a curated selection of my work.
 
 	.designandbanter.section.angle
 		.container
@@ -83,46 +94,11 @@ title: Sam Willis - Product Designer
 				.col-sm-8.col-sm-offset-2
 					%h2.section-header Selected Works
 
-			.row
-				.col-sm-12
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/2004764/broadband.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1989979/screenshot_2015-03-25_16.52.33.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1912409/artboard_1.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1903235/screenshot_2015-01-28_12.10.02.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1901749/artboard_1.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1327167/screen_shot_2013-11-27_at_14.51.08.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1232037/screen_shot_2013-09-11_at_21.27.45.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1219380/pingpongfightclub-icons.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1120026/m-m-sticker.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/1069278/dnblogo.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/980757/badge-dribble.png")
-						%span.tag Brief text about item
-					%a{:href => "#", :class => "item"}
-						%img(src="https://d13yacurqjgara.cloudfront.net/users/177210/screenshots/950166/import-guide-cover2.png")
-						%span.tag Brief text about item
+		.item-grid
+			#shotsByPlayerId
+				%tr
 
-	.contact.section.angle
+	.contact.section#contact
 		.container
 			.row
 				.col-sm-8.col-sm-offset-2
