@@ -5,27 +5,26 @@
     %meta{:charset => "utf-8"}/
 
     / Always force latest IE rendering engine or request Chrome Frame
-    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
 
     / Scale screen for mobile
-    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
 
     / Use title if it's in the page YAML frontmatter
     %title= current_page.data.title || "The Middleman"
 
     / Google Fonts
-    %link{:href => "http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic|Merriweather:400,300,700,900,300italic,400italic,700italic,900italic", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic|Merriweather:400,300,700,900,300italic,400italic,700italic,900italic", :rel => "stylesheet", :type => "text/css"}
 
     / Open Graph Data
-    %meta{:content => "Sam Willis | Product Designer in London.", :property => "og:title"}/
+    %meta{:content => "Sam Willis | Product Designer in London.", :property => "og:title"}
     %meta{:content => "http://thesamwillis.com", :property => "og:url"}/
-    %meta{:content => "http://thesamwillis.com/images/profile.png", :property => "og:image"}/
+    %meta{:content => "http://thesamwillis.com/images/profile.png", :property => "og:image"}
 
     / Styles
     = stylesheet_link_tag "style"
 
     / Font Awesome
-    %link{:href => "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", :rel => "stylesheet"}/
+    %link{:href => "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", :rel => "stylesheet"}
   %body{:class => page_classes}
 
     = partial "partials/nav"

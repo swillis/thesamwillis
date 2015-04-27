@@ -4,18 +4,7 @@
 	text-align: center;
 	background-color: $grey-scale-3;
 	@include preserve;
-
-	&:before {
-		content: '';
-		width: 0;
-		height: 0;
-		border-left: 100vw solid transparent;
-		border-right: 0px solid transparent;
-		border-bottom: 60px solid #fff;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-	}
+	@extend .angle-bottom;
 
 	.container {
 		@include vertically-center;

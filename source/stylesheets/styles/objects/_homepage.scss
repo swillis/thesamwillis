@@ -17,24 +17,9 @@
 
 	}
 
-	.angle {
-		position: relative;
-
-		&:before {
-			content: '';
-			width: 0;
-			height: 0;
-			border-left: 0px solid transparent;
-			border-right: 100vw solid transparent;
-			border-top: 60px solid #fff;
-			position: absolute;
-			top: 0;
-			left: 0;
-		}
-	}
-
 	.case-studies {
 		background-color: $primary-color-4;
+		@extend .angle-top;
 
 		&.section {
 			padding: 150px 0;
@@ -64,10 +49,66 @@
 		}
 	}
 
+	.experience {
+		@extend .angle-top;
+
+		&.section {
+			padding-top: 150px;
+		}
+
+		&:before {
+			border-top-color: $primary-color-4;
+		}
+
+		ul.experience-list {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			position: relative;
+
+			li.experience-item {
+				margin: 30px 0;
+				border-bottom: 1px solid $grey-scale-1;
+				position: relative;
+
+				&:last-child {
+					border: none;
+				}
+
+				.date {
+					display: block;
+					font-size: 1em;
+					font-family: $sans;
+					font-weight: 400;
+					color: $grey-scale-2;
+				}
+
+				.company {
+					color: $grey-scale-4;
+					display: inline-block;
+					margin: 0 0 9px;
+				}
+
+				.role {
+					display: inline;
+					font-size: 1.2em;
+					font-family: $sans;
+					color: $grey-scale-2;
+				}
+			}
+		}
+	}
+
 	.designandbanter {
 		background-image: url('../images/db-bg.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
+		@extend .angle-top;
+		@extend .angle-bottom;
+
+		&:after {
+			border-bottom-color: $primary-color-4;
+		}
 
 		.db-logo {
 			max-width: 300px;
@@ -76,25 +117,6 @@
 
 		&.section {
 			padding: 150px 0;
-		}
-
-		&.angle {
-
-			&:before {
-				border-top: 60px solid $primary-color-4;
-			}
-
-			&:after {
-				content: '';
-				width: 0;
-				height: 0;
-				border-left: 100vw solid transparent;
-				border-right: 0px solid transparent;
-				border-bottom: 60px solid #fff;
-				position: absolute;
-				bottom: 0;
-				left: 0;
-			}
 		}
 
 		h2.section-header {
@@ -106,14 +128,57 @@
 		}
 	}
 
+	.selected-works {
+		background-color: $primary-color-4;
+
+		h2.section-header {
+			color: #fff;
+		}
+		.item {
+			position: relative;
+			width: 25%;
+			float: left;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+
+			.tag {
+				visibility: hidden;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.8);
+				color: #fff;
+				padding: 30px;
+				top: 0;
+				left: 0;
+				opacity: 0;
+				@include transition(0.1s, all);
+			}
+
+			&:hover {
+				.tag {
+					visibility: visible;
+					opacity: 1;
+				}
+			}
+		}
+	}
+
 	.contact {
+		@extend .angle-top;
+
+		&:before {
+			border-top-color: $primary-color-4;
+		}
 
 		.social {
 			font-family: $sans;
 			list-style: none;
 			margin: 30px 0 0;
 			padding: 0;
-			// text-align: center;
 
 			li {
 				display: inline;

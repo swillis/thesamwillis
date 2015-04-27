@@ -63,6 +63,38 @@ $sans: 'Roboto', 'helvetica neue', helvetica, sans-serif;
     }
 }
 
+.angle-top {
+    position: relative;
+
+    &:before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 0px solid transparent;
+        border-right: 100vw solid transparent;
+        border-top: 60px solid #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.angle-bottom {
+    position: relative;
+
+    &:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 100vw solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 60px solid #fff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
 // @mixin bp($point) {
 
 //     $bp-babybear: "(max-width: 600px)";
