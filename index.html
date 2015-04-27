@@ -5,7 +5,6 @@
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
     <!-- Scale screen for mobile -->
-    <meta content='width=device-width, initial-scale=1' name='viewport'>
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Sam Willis - Product Designer</title>
     <!-- Google Fonts -->
@@ -34,10 +33,10 @@
                 <a href='/'>Home</a>
               </li>
               <li>
-                <a href='/'>Case Studies</a>
+                <a href='#case-studies'>Case Studies</a>
               </li>
               <li>
-                <a href='/'>Contact</a>
+                <a href='#contact'>Contact</a>
               </li>
             </ul>
           </div>
@@ -49,8 +48,8 @@
         <div class='container'>
           <div class='row'>
             <div class='col-sm-12'>
-              <h1>I Make Digital Products</h1>
-              <h2 class='subheader'>And other things</h2>
+              <h1>I Design Digital Products</h1>
+              <h2 class='subheader'>This is still a work in progress, so please excuse any rough edges!</h2>
             </div>
           </div>
         </div>
@@ -66,7 +65,7 @@
           </div>
         </div>
       </div>
-      <div class='case-studies section angle'>
+      <div class='case-studies section' id='case-studies'>
         <div class='container'>
           <div class='row'>
             <div class='col-sm-8 col-sm-offset-2'>
@@ -75,19 +74,26 @@
             </div>
           </div>
           <div class='row'>
-            <div class='col-sm-8 col-sm-offset-2'>
+            <div class='col-md-8 col-md-offset-2'>
               <div class='row'>
-                <div class='col-sm-6'>
+                <div class='col-md-6'>
                   <a class='cta' href='case-studies/23snaps-frictionless-onboarding.html'>
-                    <div class='case-study'>
-                      <h3>23snaps: Onboarding</h3>
+                    <div class='case-study snaps'>
+                      <h4>23snaps: Onboarding</h4>
                     </div>
                   </a>
                 </div>
-                <div class='col-sm-6'>
+                <div class='col-md-6'>
                   <a class='cta' href='case-studies/styloko-trend-pages.html'>
-                    <div class='case-study'>
-                      <h3>Styloko: Trend Pages</h3>
+                    <div class='case-study styloko'>
+                      <h4>Styloko: Trend Pages</h4>
+                    </div>
+                  </a>
+                </div>
+                <div class='col-md-6'>
+                  <a class='cta' href='case-studies/styloko-trend-pages.html'>
+                    <div class='case-study printastic'>
+                      <h4>Printastic: Coming Soon&hellip;</h4>
                     </div>
                   </a>
                 </div>
@@ -96,19 +102,68 @@
           </div>
         </div>
       </div>
-      <div class='designandbanter section angle' data-stellar-background-ratio='0.5'>
+      <div class='experience section'>
         <div class='container'>
           <div class='row'>
             <div class='col-sm-8 col-sm-offset-2'>
-              <img class='db-logo' src='/images/db-logo.png'>
-              <p>Design+Banter is a meetup for Designers organised by myself and Gearóid O'Rourke. Every month ~200 Designers get together to trade stories, share ideas, and have a few drinks too.</p>
-              <p>If you are a Designer, you should come! If you would like to speak at or sponsor a future event, I would love to hear from you.</p>
-              <a class='button' href='/'>Follow us on Twitter</a>
+              <h2 class='section-header'>My Experience</h2>
+              <ul class='experience-list'>
+                <li class='experience-item'>
+                  <span class='date'>2011 - 2013</span>
+                  <h3 class='company'>Evently</h3>
+                  <span class='role'>| Junior Designer</span>
+                  <p class='summary'>Evently built tools that helped Event Organisers sell tickets and promote their events effectively online.</p>
+                </li>
+                <li class='experience-item'>
+                  <span class='date'>2013 - 2014</span>
+                  <h3 class='company'>Listora</h3>
+                  <span class='role'>| Design & Front End</span>
+                  <p class='summary'>Listora helps event publishers and organisers to promote and drive traffic to online event listings.</p>
+                </li>
+                <li class='experience-item'>
+                  <span class='date'>2014 - Present</span>
+                  <h3 class='company'>Evori</h3>
+                  <span class='role'>| Design & Front End</span>
+                  <p class='summary'>The team at Evori build award winning startups, from scratch. Their portfolio currently consists of 23snaps, Styloko & Printastic.</p>
+                </li>
+                <li class='experience-item'>
+                  <span class='date'>2011 - Present</span>
+                  <h3 class='company'>Ongoing Freelance Work</h3>
+                  <span class='role'>| Design, Consulting & Front End</span>
+                  <p class='summary'>There are too many to list here, but I am always busily working away at freelance or side projects. See below for a curated selection of my work.</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class='contact section angle'>
+      <div class='designandbanter section angle'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-8 col-sm-offset-2'>
+              <img class='db-logo' src='/images/db-logo.png'>
+              <p>Design+Banter is a monthly event for Designers organised by myself and Gearóid O'Rourke. Each month ~200 London based Designers get together to trade stories, share ideas, and have a few drinks too.</p>
+              <p>If you are a Designer, you should come! If you would like to speak at or sponsor a future event, then <a href="#">get in touch</a>.</p>
+              <p>Stay up to date with D+B by signing up to our mailing list and/or following us on Twitter.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='selected-works section'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-sm-8 col-sm-offset-2'>
+              <h2 class='section-header'>Selected Works</h2>
+            </div>
+          </div>
+        </div>
+        <div class='item-grid'>
+          <div id='shotsByPlayerId'>
+            <tr></tr>
+          </div>
+        </div>
+      </div>
+      <div class='contact section' id='contact'>
         <div class='container'>
           <div class='row'>
             <div class='col-sm-8 col-sm-offset-2'>
