@@ -1,6 +1,10 @@
 .homepage {
 	.page-header {
 		background-color: $primary-color-1;
+		background-image: url('../images/main-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
 
 		h1 {
 			color: #fff;
@@ -18,7 +22,7 @@
 	}
 
 	.case-studies {
-		background-color: $primary-color-4;
+		background-color: $grey-scale-1;
 		@extend .angle-top;
 
 		&.section {
@@ -26,11 +30,11 @@
 		}
 
 		h2.section-header {
-			color: #fff;
+			// color: #fff;
 		}
 
 		p {
-			color: #fff;
+			// color: #fff;
 		}
 
 		.case-study {
@@ -81,7 +85,7 @@
 		}
 
 		&:before {
-			border-top-color: $primary-color-4;
+			border-top-color: $grey-scale-1;
 		}
 
 		ul.experience-list {

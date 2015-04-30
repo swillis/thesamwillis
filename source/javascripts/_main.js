@@ -13,3 +13,27 @@ $.jribbble.getShotsByPlayerId('thesamwillis', function (playerShots) {
 
     $('#shotsByPlayerId').html(html.join(''));
 }, {page: 1, per_page: 12});
+
+
+if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    var lastScrollTop = 0;
+
+    $(window).scroll(function() {
+
+        var st = $(this).scrollTop();
+
+        if (st > lastScrollTop){
+            $('.header-fade').css({
+                marginTop: '+=' + ((st - lastScrollTop)/2.5).toFixed(),
+                opacity: (1-((lastScrollTop/100)/6)).toFixed(2)
+            });
+        } else {
+            $('.header-fade').css({
+                marginTop: '-=' + ((lastScrollTop - st)/2.5).toFixed(),
+                opacity: (1-((lastScrollTop/100)/6)).toFixed(2)
+            });
+        }
+
+        lastScrollTop = st;
+    });
+}
